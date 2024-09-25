@@ -168,5 +168,9 @@
                 </div>
             </div>
         </div>
+        <div class="col-span-3">
+            <h1 class="text-xl font-bold">API Response:</h1>
+            <p>{{ $test['title'] }}</p>
+        </div>
     </body>
 </html>
