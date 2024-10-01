@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Classes\Shapes\Triangle;
+use App\Classes\Shapes\Circle;
+use App\Interfaces\ShapesStrategy;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -11,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+
     }
 
     /**
